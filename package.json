@@ -1,7 +1,6 @@
 {
   "name": "nextjs",
-  "version": "1.0.0",
-  "private": false,
+  "version": "5.0.0",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
