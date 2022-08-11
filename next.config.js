@@ -1,3 +1,1 @@
-module.exports = {
-  useFileSystemPublicRoutes: false,
-}
+export const useFileSystemPublicRoutes = false;
