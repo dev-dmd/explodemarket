@@ -1,6 +1,6 @@
 {
-  "name": "explode",
-  "version": "14.18.3",
+  "name": "nextjs",
+  "version": "1.0.0",
   "private": false,
   "scripts": {
     "dev": "node server.js",
