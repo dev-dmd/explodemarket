@@ -11,10 +11,10 @@ export default function Index() {
     <Container maxWidth="sm">
       <Box sx={{ my: 4 }}>
         <Typography variant="h4" component="h1" gutterBottom>
-          Explode Market
+          Explode Market What We Do
         </Typography>
         <Link href="/about" color="secondary">
-          Idi na About stranicu
+          Go to About Page
         </Link>
         <ProTip />
         <Copyright />
