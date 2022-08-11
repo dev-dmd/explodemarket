@@ -14,7 +14,7 @@ export default function Index() {
           Explode Market
         </Typography>
         <Link href="/about" color="secondary">
-          Go to the about page
+          Idi na About stranicu
         </Link>
         <ProTip />
         <Copyright />
