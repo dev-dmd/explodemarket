@@ -8,17 +8,11 @@ import Copyright from '../src/Copyright';
 
 export default function Index() {
   return (
-    <Container maxWidth="sm">
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Explode Market What We Do
-        </Typography>
-        <Link href="/about" color="secondary">
-          Go to About Page
-        </Link>
-        <ProTip />
-        <Copyright />
-      </Box>
-    </Container>
+    <section className='hero'>
+      <Container maxWidth="md">
+        <Typography>Explode Market</Typography>
+      </Container>   
+    </section>
+   
   );
 }
