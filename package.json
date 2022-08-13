@@ -1,10 +1,11 @@
 {
-  "name": "nextjs",
-  "version": "5.0.0",
+  "name": "explode_market",
+  "version": "5.0.1",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production node server.js",
+    "live": "next dev"
   },
   "dependencies": {
     "@emotion/cache": "latest",
