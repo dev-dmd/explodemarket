@@ -22,7 +22,7 @@ export default function HeroSection() {
             <Fab color="secondary" aria-label="add">
               <EastIcon />
             </Fab>
-            <Typography color="primary.text" component="p" variant="p" sx={{mr: 2, display: 'flex', alignItems: 'center'}}>upoznajte nas bliže</Typography>
+            <Typography color="primary.text" component="p" variant="p" sx={{ml: 2, display: 'flex', alignItems: 'center'}}>upoznajte nas bliže</Typography>
           </Box>
         </Grid>
         <Grid xs={4} sx={{ display: 'flex', justifyContent: 'center' }}>

@@ -5,7 +5,8 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
-    "export": "next export"
+    "export": "next export",
+    "live": "next dev"
   },
   "dependencies": {
     "@emotion/cache": "latest",
