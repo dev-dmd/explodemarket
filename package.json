@@ -1,5 +1,5 @@
 {
-  "name": "explode_market",
+  "name": "nextjs",
   "version": "5.0.1",
   "scripts": {
     "dev": "node server.js",
