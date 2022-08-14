@@ -77,7 +77,7 @@ export default function Header(props) {
   return (
     <header>
       <CssBaseline />
-      <AppBar color="primary" position="static">
+      <AppBar color="transparent" position="static">
         <Container maxWidth="md">
           <Toolbar disableGutters>
             <LogoExplode />
@@ -92,7 +92,7 @@ export default function Header(props) {
                 fontFamily: 'Poppins',
                 fontWeight: 700,
                 letterSpacing: '.3rem',
-                color: 'inherit',
+                color: 'white',
                 textDecoration: 'none',
               }}
             >

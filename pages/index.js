@@ -1,17 +1,13 @@
 import * as React from 'react';
 import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import ProTip from '../src/ProTip';
-import Link from '../src/Link';
-import Copyright from '../src/Copyright';
+import HeroSection from '../src/pages/Home/Hero/HeroSection';
 
 export default function Index() {
   return (
     <section className='hero'>
-      <Container maxWidth="md">
-        <Typography>Explode Market</Typography>
-      </Container>   
+        <Container maxWidth="md">
+          <HeroSection />
+        </Container>
     </section>
    
   );
