@@ -15,7 +15,7 @@ export default function HeroSection() {
     <React.Fragment>
       <Box className={styles.hero}></Box>
       <Grid container sx={{mt: 6}} rowSpacing={3} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-        <Grid xs={8}>
+        <Grid xs={12} md={8}>
           <Typography sx={{ fontFamily: 'Poppins'}} color="primary.text" component="h1" variant="h3">
           Zamislite <Label>digitalnu budućnost</Label> vaše kompanije i pretvorite je u <Label>stvarnost</Label>.
           </Typography>
@@ -39,7 +39,7 @@ export default function HeroSection() {
             </Box>
           </Box>
         </Grid>
-        <Grid xs={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+        <Grid xs={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
           <img src='/images/mobile.svg' width={300} alt="mobile phone" />
         </Grid>
       </Grid>

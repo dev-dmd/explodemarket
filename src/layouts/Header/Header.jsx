@@ -12,11 +12,10 @@ import Fade from '@mui/material/Fade';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import LogoExplode from '../../assets/icons/LogoExplode';
 import theme from '../../theme';
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Naslovna', 'Cene', 'Rani radovi', 'Nasa firma', 'Kontakt'];
 
 function ScrollTop(props) {
   const { children, window } = props;
@@ -92,8 +91,8 @@ export default function Header(props) {
                 fontFamily: 'Poppins',
                 fontWeight: 700,
                 letterSpacing: '.3rem',
-                color: 'white',
                 textDecoration: 'none',
+                color: 'primary.text'
               }}
             >
               Explode Market
@@ -121,7 +120,7 @@ export default function Header(props) {
               >
                 {pages.map((page) => (
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography sx={{ fontFamily: 'Poppins' }} textAlign="center">{page}</Typography>
+                    <Typography color="primary" sx={{ fontFamily: 'Poppins' }} textAlign="center">{page}</Typography>
                   </MenuItem>
                 ))}
               </Menu>
@@ -139,8 +138,8 @@ export default function Header(props) {
                 fontFamily: 'Poppins',
                 fontWeight: 700,
                 letterSpacing: '.3rem',
-                color: 'inherit',
                 textDecoration: 'none',
+                color: 'primary.text'
               }}
             >
               Explode Market
@@ -150,7 +149,7 @@ export default function Header(props) {
                 <Button
                   key={page}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: 'white', display: 'block', fontFamily: 'Poppins' }}
+                  sx={{ my: 2, display: 'block', fontFamily: 'Poppins', color: 'primary.text' }}
                 >
                   {page}
                 </Button>
