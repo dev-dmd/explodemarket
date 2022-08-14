@@ -52,7 +52,7 @@ const theme = (0,_mui_material_styles__WEBPACK_IMPORTED_MODULE_0__.createTheme)(
         },
         secondary: {
             main: "#F9FD26",
-            text: "#1F2971"
+            text: "#4A58B8"
         },
         error: {
             main: _mui_material_colors__WEBPACK_IMPORTED_MODULE_1__.red.A400
