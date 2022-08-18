@@ -13,7 +13,6 @@ import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import LogoExplode from '../../assets/icons/LogoExplode';
-import theme from '../../theme';
 
 const pages = ['Naslovna', 'Cene', 'Rani radovi', 'Nasa firma', 'Kontakt'];
 

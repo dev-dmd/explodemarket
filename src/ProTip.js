@@ -2,6 +2,7 @@ import * as React from 'react';
 import Link from '@mui/material/Link';
 import SvgIcon from '@mui/material/SvgIcon';
 import Typography from '@mui/material/Typography';
+import theme from './theme';
 
 function LightBulbIcon(props) {
   return (
@@ -14,8 +15,8 @@ function LightBulbIcon(props) {
 export default function ProTip() {
   return (
     <Typography color="secondary.text">
-      <LightBulbIcon sx={{ mr: 1, verticalAlign: 'middle' }} />
-      Pro tip: Prati obavestenja <Link href="https://mui.com/getting-started/templates/">ovde</Link> od Explode Market.
+      <LightBulbIcon sx={{ mr: 1, verticalAlign: 'middle', '&:hover': { fill: theme.palette.secondary.main }, cursor: 'pointer' }} />
+      Pro tip: Prati obavestenja od Explode Market klikom na sijalicu.
     </Typography>
   );
 }

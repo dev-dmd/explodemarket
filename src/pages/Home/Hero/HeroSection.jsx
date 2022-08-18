@@ -1,10 +1,11 @@
 import * as React from 'react'
-import { Box, Button, Fab, IconButton, Typography } from '@mui/material'
+import { Box, Fab, IconButton, Typography } from '@mui/material'
 import styles from './hero.module.css'
 import Grid from '@mui/material/Unstable_Grid2'
 import EastIcon from '@mui/icons-material/East'
 import DialpadIcon from '@mui/icons-material/Dialpad'
 import { styled } from '@mui/material/styles';
+import MobileImg from '../../../assets/icons/MobileImg'
 
 const Label = styled('span')(({ theme }) => ({
   color: theme.palette.primary.main,
@@ -40,7 +41,7 @@ export default function HeroSection() {
           </Box>
         </Grid>
         <Grid xs={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
-          <img src='/images/mobile.svg' width={300} alt="mobile phone" />
+          <MobileImg viewBox= '0 0 610 733' sx={{ verticalAlign: 'middle', width: '300px', height: 'auto' }} />
         </Grid>
       </Grid>
     </React.Fragment>
