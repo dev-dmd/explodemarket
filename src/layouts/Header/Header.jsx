@@ -70,9 +70,9 @@ export default function Header(props) {
   };
 
   return (
-    <header>
+    <Box sx={{position: 'relative', zIndex: '1500'}} component="header">
       <CssBaseline />
-      <AppBar color="transparent" position="static">
+      <AppBar component="div" color="transparent" position="static">
         <Container maxWidth="md">
           <Toolbar disableGutters>
             <LogoExplode />
@@ -160,6 +160,6 @@ export default function Header(props) {
           <KeyboardArrowUpIcon />
         </Fab>
       </ScrollTop>
-    </header>
+    </Box>
   )
 }
